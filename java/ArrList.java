@@ -13,6 +13,7 @@ public class ArrList {
         List<Integer> list3 = new ArrayList<>();
         list3.add(77);
         list3.addAll(Arrays.asList(5,1,3,4));
+        list3.remove(list3.size()-1);
 
         System.out.println("list1: " + list);
         System.out.println("list2: " + list2);
